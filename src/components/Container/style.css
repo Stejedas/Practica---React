@@ -4,23 +4,74 @@
     flex-direction: column;
     width: 380px;
     height: 600px;
-    background-color: lightgray;
-    margin: 10px
+    background-color:#f6f8fa;    ;
+    margin: 10px;
+    overflow-y: scroll;
+    overflow-x: clip;
+    border-radius: 10px;
+   
 }
 
 .headerContTask{
     display: flex;
     flex-direction: row;
-    width: 320px;
+    width: 360px;
     height: 60px;
-    background-color: rgb(154, 194, 230);
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .numberContTask{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 18px;
+}
+
+.titleContTask{
+   
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.plusContTask{
+    background-color: transparent;
+    border: transparent;
+    font-size: 30px;
+    
+    
+}
+.deleteAll{
+    background-color: transparent;
+    border: transparent;
+   
+}
+
+/* .task{
+    background-color: aqua;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+.ContainerTask{
+
+    align-self: center;
+ 
+    
+
+
+
+}
+
+
+.numberTaskTodo{
     width: 35px;
     height: 35px;
     background-color: rgb(216, 216, 216);
@@ -30,23 +81,7 @@
    justify-content: center;
    align-items: center;
     font-size: 20px;
-}
 
-.titleContTask{
-   
-    font-size: 25px;
-}
 
-.plusContTask{
-    background-color: transparent;
-    border: transparent;
-    font-size: 30px;
-    
-}
 
-/* .task{
-    background-color: aqua;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-} */
+}
